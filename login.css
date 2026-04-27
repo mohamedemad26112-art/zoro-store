@@ -1,10 +1,10 @@
 body {
     min-height: 100vh;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/image/oYKsT-CcYVizxzHS-TaHnRxBznDBAJ_n2RjlgGL2iYr_C0mIdcrspUpyG8vmeXcd-nkTzqE6unfopF_W91jSu0vKyPu7G2h1ln6Xhahhl7E1xHJXELO-4bzNIB2wRf99xap3bjHqywpfCq-A3yCR47tyRlzJYkEM4zmwL91ktFkFZF3f3PCZUlpCoRGw0m0A.jfif);
+    display: flex; /*centring*/
+    justify-content: center; /*y-axis*/
+    align-items: center; /*x-axis*/
+    background-image: url(image/background.png);
     background-size: cover;
     background-position: center;
 }
@@ -15,7 +15,7 @@ body {
     border-radius: 5%;
     background: rgba(255,255,255,0.1);
     backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3); /*حدود*/
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .user label, .pass label {
-    margin-left: 35px;
+    margin-left: 35px; 
     color: rgb(222, 222, 222);
 }
 
@@ -51,10 +51,10 @@ body {
     width: 325px;
     height: 40px;
     border-radius: 100px;
-    margin: 10px 0 0 35px;
+    margin: 10px 0 0 35px;/*top right bottom left*/
     background: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    padding-left: 20px;
+    padding-left: 25px;/*حدود داخليه */
     color: white;
 }
 
@@ -103,14 +103,14 @@ body {
     padding: 14px 0;
     text-align: center;
     text-decoration: none;
-    cursor: pointer;
-    transition: 0.3s;
+    cursor: pointer;/*mouse*/
+    transition: 0.3s;/*حركه*/
 }
 
 .btn-link:hover {
     background: linear-gradient(to bottom, #2c2f63, #5b67b7);
     transform: translateY(-2px);
-}
+}/*حركه*/
 
 .btn-link:active {
     transform: scale(0.95);

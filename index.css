@@ -99,7 +99,7 @@ body {
     align-items: center;
     text-align: center;
 
-    background-image: url("/image/Futuristic\ cyberpunk\ neon\ landscape.png"); /* rename your image */
+   background-image: url("image/landing.jfif");
     background-size: cover;
     background-position: center;
 }
@@ -288,7 +288,7 @@ body {
     align-items: center;
     text-align: center;
 
-    background-image: url("/image/Futuristic\ cyberpunk\ neon\ landscape.png");
+    background-image: url("image/landing.jfif");
     background-size: cover;
     background-position: center;
 }
