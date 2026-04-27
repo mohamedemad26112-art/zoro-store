@@ -1,0 +1,128 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/image/oYKsT-CcYVizxzHS-TaHnRxBznDBAJ_n2RjlgGL2iYr_C0mIdcrspUpyG8vmeXcd-nkTzqE6unfopF_W91jSu0vKyPu7G2h1ln6Xhahhl7E1xHJXELO-4bzNIB2wRf99xap3bjHqywpfCq-A3yCR47tyRlzJYkEM4zmwL91ktFkFZF3f3PCZUlpCoRGw0m0A.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 400px;
+    height: 475px;
+    border-radius: 5%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* TEXT */
+.text h1,
+.text p {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.text h1 {
+    margin: 25px 0 0;
+    font-size: 40px;
+}
+
+.text p {
+    margin: 0 0 30px;
+    font-size: small;
+}
+
+/* INPUTS */
+.user, .pass {
+    position: relative;
+}
+
+.user label, .pass label {
+    margin-left: 35px;
+    color: rgb(222, 222, 222);
+}
+
+.user input, .pass input {
+    width: 325px;
+    height: 40px;
+    border-radius: 100px;
+    margin: 10px 0 0 35px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 20px;
+    color: white;
+}
+
+.user input::placeholder,
+.pass input::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+/* ICONS */
+.user img, .pass img {
+    width: 18px;
+    position: absolute;
+    right: 50px;
+    top: 38px;
+}
+
+/* REMEMBER */
+.rem {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 10px;
+}
+
+.rem a,
+.rem label {
+    color: white;
+    text-decoration: none;
+}
+
+/* BUTTON LINK */
+.btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-link {
+    display: block;
+    width: 300px;
+    margin: auto;
+    background: linear-gradient(to bottom, #1b1c3f, #4a4e91);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-link:hover {
+    background: linear-gradient(to bottom, #2c2f63, #5b67b7);
+    transform: translateY(-2px);
+}
+
+.btn-link:active {
+    transform: scale(0.95);
+}
+
+/* REGISTER */
+.register {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register a {
+    color: #b5b5b5;
+    text-decoration: none;
+}
